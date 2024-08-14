@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name">Barnabás Labancz</string>
+    <string name="title">Android Dabbler Extraordinaire</string>
+    <string name="phone_number">+36 30 530 3123</string>
+    <string name="instagram_handle">\@barnabaslabancz</string>
+    <string name="email_address">barnabas.labancz@gmail.com</string>
+    <string name="phone_number_description">phone number</string>
+    <string name="instagram_handle_description">instagram handle</string>
+    <string name="email_address_description">email address</string>
+</resources>
