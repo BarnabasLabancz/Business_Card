@@ -118,7 +118,7 @@ fun Icons(modifier: Modifier = Modifier) {
 @Composable
 fun Info(modifier: Modifier = Modifier) {
     Column(
-        modifier = modifier.padding(bottom = 32.dp, end = 40.dp)
+        modifier = modifier.padding(bottom = 32.dp, start = 124.dp)
     ) {
         Text(
             text = stringResource(id = R.string.phone_number)
@@ -140,7 +140,7 @@ fun Info(modifier: Modifier = Modifier) {
 fun BottomSection(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxWidth()) {
         Icons(Modifier.align(Alignment.CenterStart))
-        Info(Modifier.align(Alignment.CenterEnd))
+        Info(Modifier.align(Alignment.CenterStart))
     }
 }
 
